@@ -1,5 +1,6 @@
 # Lab Report 1 - Remote Access
-     *This post serves as a 3-step tutorial to log into course-specific account on ieng6!*
+*This post serves as a 3-step tutorial to log into course-specific account on ieng6!*
+
 - The first step requires you to **install VScode**. This step was rather hastened for me as CSE11 had
 required the installation & setup of a VScode already. Once installed, you'll see something like this:
 
