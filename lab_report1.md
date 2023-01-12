@@ -14,3 +14,12 @@ account associated with the UCSD server, & utilizing our UCSD account password t
 connect. Successful connection should have your terminal looking like this:
 
 ![image](https://user-images.githubusercontent.com/122498399/212010970-433716d2-a1b2-424f-ae86-d52a8e3cae32.png)
+
+
+- Our final step would be testing commands associated with remote access. These commands are
+typed in our terminal after successful remote connection. Commands such as "cd", "ls", &
+"ls -a". Below demonstrates command "ls -a" which "lists all" content of the working directory,
+including the hidden content of the directory:
+
+![image](https://user-images.githubusercontent.com/122498399/212013024-9e8cc13a-f57e-46e9-b568-0234a61b8119.png)
+
