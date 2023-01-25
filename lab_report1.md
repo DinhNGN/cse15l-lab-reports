@@ -2,7 +2,7 @@
 *This post serves as a 3-step tutorial to log into course-specific account on ieng6!*
 
 - The first step requires you to **install VScode**. This step was rather hastened for me as CSE11 had
-required the installation & setup of a VScode already. Once installed, you'll see something like this:
+required the installation & setup of a VScode already (Link to download - https://code.visualstudio.com/Download). Once installed, you'll see something like this:
 
 ![image](https://user-images.githubusercontent.com/122498399/212008323-2af8cd6b-9124-4748-92b3-6eff63738aae.png)
 
@@ -11,7 +11,7 @@ required the installation & setup of a VScode already. Once installed, you'll se
 remote computer where we can test/utilize commands. This process classifies your accessing
 computer as 'client' & the remotely accessed computer as 'server'. Commands are written from
 your device to be retrieved & processed remotely by the server. In this case we'll be using the
-account associated with the UCSD server, & utilizing our UCSD account password to successfully
+account associated with the UCSD server (find here - https://sdacs.ucsd.edu/~icc/index.php), & utilizing our UCSD account password (if you encounter issues with your password, read this - https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)  to successfully
 connect. Successful connection should have your terminal looking like this:
 
 ![image](https://user-images.githubusercontent.com/122498399/212010970-433716d2-a1b2-424f-ae86-d52a8e3cae32.png)
