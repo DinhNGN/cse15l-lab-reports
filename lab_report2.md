@@ -20,5 +20,34 @@ to check if it's a valid input for "/add-messages", & if is so & it contains a v
 ## Part 2 ~ Bugs
 
 ### Failing Test: <br/>
-      Dooogs
+        public void testReversed2() {
+            int[] input2 = { 1, 2, 3, 4, 5 };
+            assertArrayEquals(new int[]{ 5, 4, 3, 2, 1}, ArrayExamples.reversed(input2));
+        }
 
+### Passing Test: <br/>
+        public void testReversed() {
+          int[] input1 = { };
+          assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+        }
+
+### Symptom:
+![image](https://user-images.githubusercontent.com/122498399/215609711-d7feb556-4381-4e86-8b4d-396ae794e324.png)
+
+### The Bug Fixed(Before & After):
+- Before: <br/>
+        static int[] reversed(int[] arr) {
+          int[] newArray = new int[arr.length];
+          for(int i = 0; i < arr.length; i += 1) {
+          arr[i] = newArray[arr.length - i - 1];
+          }
+          return arr;
+
+- After: <br/>
+        static int[] reversed(int[] arr) {
+          int[] newArray = new int[arr.length];
+          for(int i = 0; i < arr.length; i += 1) {
+          newArray[i] = arr[arr.length - i - 1];
+          }
+          return newArray;
+        }
