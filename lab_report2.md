@@ -51,3 +51,9 @@ to check if it's a valid input for "/add-messages", & if is so & it contains a v
           }
           return newArray;
         }
+
+### The Rationale:
+The bug in this instance of the Reversed method is due to a lack of data transfer. The data should’ve been either copied onto a new array from ‘arr’ in reverse & then put back onto ‘arr’ to be returned, or seen in the after image, reversed onto a new array & then returns the new array instead of the old unedited array.
+
+## Part 3 ~ Week 2 & 3 Reflection
+Looking back on week 2 & 3, I learned a lot of new things regarding creating a website. Prior to going through the two weeks, I have never really experienced any exposure to URI’s, URL’s, paths, & much less utilizing codes & such to manipulate between the coding platform to the web server while changing string input from the web with the codes you made in your vs code. Everything in this class thus far has been new & things I knew very little about prior.
