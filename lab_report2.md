@@ -35,7 +35,7 @@ to check if it's a valid input for "/add-messages", & if is so & it contains a v
 ![image](https://user-images.githubusercontent.com/122498399/215609711-d7feb556-4381-4e86-8b4d-396ae794e324.png)
 
 ### The Bug Fixed(Before & After):
-- Before: <br/>
+### Before: <br/>
         static int[] reversed(int[] arr) {
           int[] newArray = new int[arr.length];
           for(int i = 0; i < arr.length; i += 1) {
@@ -43,7 +43,7 @@ to check if it's a valid input for "/add-messages", & if is so & it contains a v
           }
           return arr;
 
-- After: <br/>
+### After: <br/>
         static int[] reversed(int[] arr) {
           int[] newArray = new int[arr.length];
           for(int i = 0; i < arr.length; i += 1) {
