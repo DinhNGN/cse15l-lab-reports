@@ -36,7 +36,7 @@
     ./written_2/travel_guides/berlitz1
     ./written_2/travel_guides/berlitz2
 
-The command would go through the working skill-demo1-data directory to find all directories within it.
+- The command would go through the working skill-demo1-data directory to find all directories within it.
 This command is useful to know what directories is available in the skill-demo1-data directory.
 
 ### Example 2 (find . -type d): <br/>
@@ -45,7 +45,7 @@ This command is useful to know what directories is available in the skill-demo1-
     ./berlitz1
     ./berlitz2
 
-The command go through the working travel_guides directory to find all directories within. This is useful to
+- The command go through the working travel_guides directory to find all directories within. This is useful to
 figure out what directories is available in travel-guides directory.
 
 ## Command-line Option 2 ~ (find /path -mtime [#'s of Days] ".[file-type]")
@@ -54,14 +54,14 @@ figure out what directories is available in travel-guides directory.
     [cs15lwi23aoh@ieng6-201]:~:246$ (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -mtime 7 ".txt"
     >
 
-The command checks for path that has received changes in the past 7 days in the current path. This can help you search
+- The command checks for path that has received changes in the past 7 days in the current path. This can help you search
 for where the file you changed recently or at certain time is.
 
 ### Example 4 (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -mtime 1 ".txt"): <br/>
     [cs15lwi23aoh@ieng6-201]:~:245$ (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -mtime 1 ".txt"
     >
 
-The command checks for path that has received changes in the past 24 hours in the current path. This can help you find what file it
+- The command checks for path that has received changes in the past 24 hours in the current path. This can help you find what file it
 was that you were working on or changed recently.
 
 ## Command-line Option 3 ~ (find /path -size +[Size])
@@ -70,7 +70,7 @@ was that you were working on or changed recently.
     [cs15lwi23aoh@ieng6-201]:~:249$ find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -size +500k
     /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/.git/objects/pack/pack-b98cb6a4ca64cc7b2944f0fa07d3e03927d66064.pack
 
-The command proceeds to search through the path for files that are of size greater than 500 kilobytes of data. This is useful to find the largest data
+- The command proceeds to search through the path for files that are of size greater than 500 kilobytes of data. This is useful to find the largest data
 in your path in case you want to alter it.
     
 ### Example 6 (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -size +100k): <br/>
@@ -89,7 +89,7 @@ in your path in case you want to alter it.
     /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-server/.git/objects/pack/pack-cd15105c095bef3eabe7ab46217abba163043e6c.pack
     /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-server/lib/junit-4.13.2.jar
 
-The command proceeds to search through the path for files that are of size greater than 100 kilobytes of data. This is useful to find files of specific
+- The command proceeds to search through the path for files that are of size greater than 100 kilobytes of data. This is useful to find files of specific
 data in order to single out files you might be looking for.
 
 ## Command-line Option 4 ~ (find /path -size +[minimum size] -and -size -[maximum size])
@@ -106,7 +106,7 @@ data in order to single out files you might be looking for.
     /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/travel_guides/berlitz1/WhereToIstanbul.txt
     /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/travel_guides/berlitz1/WhereToLakeDistrict.txt
 
-The command uses a parameter for size of a file to search for specific files, in this case between 80 & 100 kilobytes. This is useful to narrow down the
+- The command uses a parameter for size of a file to search for specific files, in this case between 80 & 100 kilobytes. This is useful to narrow down the
 specific file you're looking for.
 
 ### Example 8 (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -size +250k -and -size -500k): <br/>
@@ -115,6 +115,6 @@ specific file you're looking for.
     /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-server/.git/objects/pack/pack-cd15105c095bef3eabe7ab46217abba163043e6c.pack
     /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-server/lib/junit-4.13.2.jar
 
-The command uses a parameter for size of a file to search for specific files, in this case between 25 & 500 kilobytes. This is useful if you want to narrow down
+- The command uses a parameter for size of a file to search for specific files, in this case between 25 & 500 kilobytes. This is useful if you want to narrow down
 your search for a file in that range, perhaps it's larger than sizes below 250 & smaller than 500 kilobytes.
     
