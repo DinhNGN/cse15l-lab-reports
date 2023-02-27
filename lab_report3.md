@@ -1,5 +1,5 @@
 # Lab Report 3 - Researching Commands (find)
-### - I learn the find command-line options below through [Link](linuxize.com) & [Link](stackscale.com) through their find-command linux page.
+### - I learn the find command-line options below through [linuxize](linuxize.com) & [stackscale](stackscale.com) through their find-command linux page.
 
 ## Command-line Option 1 ~ (find . -type [file-type])
 ### - The command will find files of the particular type mentioned after "-type" from the current directory.
