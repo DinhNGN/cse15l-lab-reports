@@ -4,6 +4,8 @@
 ## Command-line Option 1 ~ (find . -type [file-type])
 ### - The command will find files of the particular type mentioned after "-type" from the current directory & its sub-directories.
 
+
+
 ### Example 1 (find . -type d): <br/>
     [cs15lwi23aoh@ieng6-201]:skill-demo1-data:196$ find . -type d
     .
@@ -52,6 +54,8 @@ figure out what directories is available in travel-guides directory.
 ## Command-line Option 2 ~ (find /path -mtime [#'s of Days] ".[file-type]")
 ### - The command will go through the directory & its sub-directories to find files that have been changed in certain time frame in days by using "find /path -mtime" followed by #'s of days & the file type.
 
+
+
 ### Example 3 (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -mtime 7 ".txt"): <br/>
     [cs15lwi23aoh@ieng6-201]:~:246$ (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -mtime 7 ".txt"
     >
@@ -68,6 +72,8 @@ was that you were working on or changed recently.
 
 ## Command-line Option 3 ~ (find /path -size +[Size])
 ### -The command will search using the indicated size perimeter as the minimum file size to show of files from the current directory & its sub-directories.
+
+
 
 ### Example 5 (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -size +500k): <br/>
     [cs15lwi23aoh@ieng6-201]:~:249$ find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -size +500k
@@ -97,6 +103,8 @@ data in order to single out files you might be looking for. You might want to si
 
 ## Command-line Option 4 ~ (find -maxdepth [maximum amount of sub-directory to show] /path)
 ### - The command will search the current working directory & indicated amount of sub-directories indicated by the command-line.
+
+
 
 ### Example 7 (find -maxdepth 1 inside of skill-demo1-data directory): <br/>
     [cs15lwi23aoh@ieng6-203]:~:327$ cd skill-demo1-data
