@@ -50,7 +50,7 @@ This command is useful to know what directories is available in the skill-demo1-
 figure out what directories is available in travel-guides directory.
 
 ## Command-line Option 2 ~ (find /path -mtime [#'s of Days] ".[file-type]")
-- The command will go through the directory to find files that have been changed in certain time frame in days by using "find /path -mtime" followed by #'s of days & the file type.
+### - The command will go through the directory to find files that have been changed in certain time frame in days by using "find /path -mtime" followed by #'s of days & the file type.
 
 ### Example 3 (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -mtime 7 ".txt"): <br/>
     [cs15lwi23aoh@ieng6-201]:~:246$ (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -mtime 7 ".txt"
@@ -95,18 +95,40 @@ in your path in case you want to alter it.
 - The command proceeds to search through the path for files that are of size greater than 100 kilobytes of data. This is useful to find files of specific
 data in order to single out files you might be looking for.
 
-## Command-line Option 4 ~ (find /path -name [extension1] -not -name [extension2])
-### - The command will search through file with indicated extension1 & excludes those with indicated extension2.
+## Command-line Option 4 ~ (find -maxdepth [maximum amount of sub-directory to show] /path)
+### - The command will search the current working directory & indicated amount of sub-directories indicated by the command-line.
 
-### Example 7 (): <br/>
+### Example 7 (find -maxdepth 1 inside of skill-demo1-data directory): <br/>
+    [cs15lwi23aoh@ieng6-203]:~:327$ cd skill-demo1-data
+    [cs15lwi23aoh@ieng6-203]:skill-demo1-data:328$ find -maxdepth 1
+    .
+    ./.git
+    ./written_2
+    ./find-results.txt
+    ./grep-results.txt
 
+- The command lists a certain maxdepth of 1 sub-directory for the command-line. This will help you lower your short range to narrow down on what file you're looking for.
 
-- The command uses a parameter for size of a file to search for specific files, in this case between 80 & 100 kilobytes. This is useful to narrow down the
-specific file you're looking for.
+### Example 8 (find -maxdepth 2 inside of skill-demo1-data directory): <br/>
+    [cs15lwi23aoh@ieng6-203]:skill-demo1-data:329$ find -maxdepth 2
+    .
+    ./.git
+    ./.git/info
+    ./.git/hooks
+    ./.git/branches
+    ./.git/description
+    ./.git/refs
+    ./.git/objects
+    ./.git/HEAD
+    ./.git/config
+    ./.git/logs
+    ./.git/packed-refs
+    ./.git/index
+    ./written_2
+    ./written_2/non-fiction
+    ./written_2/travel_guides
+    ./find-results.txt
+    ./grep-results.txt
 
-### Example 8 (): <br/>
-
-
-- The command uses a parameter for size of a file to search for specific files, in this case between 25 & 500 kilobytes. This is useful if you want to narrow down
-your search for a file in that range, perhaps it's larger than sizes below 250 & smaller than 500 kilobytes.
+- The command lists a certain maxdepth of 2 sub-directory for the command-line. This is useful for when you don't find your file in the maxdepth of 1 sub-directory, and more accurately go through your files to look for what you want.
     
