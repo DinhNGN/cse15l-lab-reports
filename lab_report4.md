@@ -10,7 +10,7 @@
 ![image](https://user-images.githubusercontent.com/122498399/221489122-2bd0c1c2-cc5a-4702-8416-434dc690800b.png)
   
 ## Third Step (Step 6)~ Compile & Run Test
-- The steps to compile & run was simple. I accessed the javac compiler (javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java) by going 5 up in the search history, while the java command for running (java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples.java) was 6 upo in the search history. (Keys pressed for compile: "<up><up><up><up><up><enter>"; Keys pressed for run: "<up><up><up><up><up><up><enter>")
+- The steps to compile & run was simple. I accessed the javac compiler (javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java) by going 5 up in the search history, while the java command for running (java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples.java) was 6 upo in the search history. (Keys pressed for compile: " up> <up> <up> <up> <up> <enter> "; Keys pressed for run: "<up> <up> <up> <up> <up> <up> <enter> ")
 
 ![image](https://user-images.githubusercontent.com/122498399/221491974-18cacc2c-0251-4c3e-999d-e15576155027.png)
 
