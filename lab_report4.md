@@ -16,10 +16,10 @@
 
 ## Fourth Step (Step 7)~ Fixing The Code
 - To go into the code file to edit the code & fix it, we need to use type in "nano" followed by the file name, in this case, we would type in, "nano ListExamples.java". Once we have access to the code file, we will use the up, down, left & right arrow keys on our keyboard to navigate around. The problem is located towards the bottom of the file at the last while statement. The while statement is supposed to be checking for & altering variable "index2" yet it alters the value for "index1" instead. So the solution is altering the name for what value is changed in the while statement from "index1" to "index2". The code segment should end up looking something like this after: <br/>
-      while(index2 < list2.size()) {
-      result.add(list2.get(index2));
-      index2 += 1;
-      }
+  while(index2 < list2.size()) {
+  result.add(list2.get(index2));
+  index2 += 1;
+  }
 
 ## Fifth Step (Step 8)~ Re-run & Re-compile Test
 
