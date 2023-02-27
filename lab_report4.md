@@ -5,7 +5,7 @@
 ![image](https://user-images.githubusercontent.com/122498399/221482594-0df86fe5-9cf0-415e-aa9a-df166e2a39c5.png)
 
 ## Second Step (Step 5)~ Cloning Fork of Repository
-- This step was straightforward,I went ahead and clicked on the linked page in the Week 7 Github, through "the lab 7 repo" link where I would click on "<> code" for a drop down. Through this drop down, I will click on the icon next to the URL in the drop down, to successfully copy the repository. Following this, I will type in the command, "git clone https://github.com/ucsd-cse15l-w23/lab7.git" to clone the repository onto the server.
+- This step was straightforward,I went ahead and clicked on the linked page in the Week 7 Github, through "the lab 7 repo" link where I would click on "<> code" for a drop down. Through this drop down, I will click on the icon next to the URL in the drop down, to successfully copy the repository. Following this, I will type in the command, "git clone https://github.com/ucsd-cse15l-w23/lab7.git" to clone the repository onto the server. 
 ![image](https://user-images.githubusercontent.com/122498399/221489122-2bd0c1c2-cc5a-4702-8416-434dc690800b.png)
   
 ## Third Step (Step 6)~ Compile & Run Test
