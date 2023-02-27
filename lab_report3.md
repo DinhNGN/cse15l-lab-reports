@@ -1,7 +1,8 @@
 # Lab Report 3 - Researching Commands (find)
-- I learn the find command-line options below through linuxize.com & stackscale.com through their find-command linux page.
+### - I learn the find command-line options below through linuxize.com & stackscale.com through their find-command linux page.
 
 ## Command-line Option 1 ~ (find . -type [file-type])
+### - The command will find files of the particular type mentioned after "-type" from the current directory.
 
 ### Example 1 (find . -type d): <br/>
     [cs15lwi23aoh@ieng6-201]:skill-demo1-data:196$ find . -type d
@@ -49,6 +50,7 @@ This command is useful to know what directories is available in the skill-demo1-
 figure out what directories is available in travel-guides directory.
 
 ## Command-line Option 2 ~ (find /path -mtime [#'s of Days] ".[file-type]")
+- The command will go through the directory to find files that have been changed in certain time frame in days by using "find /path -mtime" followed by #'s of days & the file type.
 
 ### Example 3 (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -mtime 7 ".txt"): <br/>
     [cs15lwi23aoh@ieng6-201]:~:246$ (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -mtime 7 ".txt"
@@ -65,6 +67,7 @@ for where the file you changed recently or at certain time is.
 was that you were working on or changed recently.
 
 ## Command-line Option 3 ~ (find /path -size +[Size])
+### -The command will search using the indicated size perimeter as the minimum file size to show.
 
 ### Example 5 (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -size +500k): <br/>
     [cs15lwi23aoh@ieng6-201]:~:249$ find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -size +500k
@@ -92,28 +95,17 @@ in your path in case you want to alter it.
 - The command proceeds to search through the path for files that are of size greater than 100 kilobytes of data. This is useful to find files of specific
 data in order to single out files you might be looking for.
 
-## Command-line Option 4 ~ (find /path -size +[minimum size] -and -size -[maximum size])
+## Command-line Option 4 ~ (find /path -name [extension1] -not -name [extension2])
+### - The command will search through file with indicated extension1 & excludes those with indicated extension2.
 
-### Example 7 (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -size +80k -and -size -100k): <br/>
-    [cs15lwi23aoh@ieng6-201]:~:252$ find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -size +80k -and -size -100k
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/non-fiction/OUP/Berk/ch1.txt
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/non-fiction/OUP/Kauffman/ch8.txt
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/non-fiction/OUP/Kauffman/ch9.txt
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/travel_guides/berlitz1/WhatToJamaica.txt
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/travel_guides/berlitz1/WhereToDublin.txt
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/travel_guides/berlitz1/WhereToEgypt.txt
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/travel_guides/berlitz1/WhereToIsrael.txt
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/travel_guides/berlitz1/WhereToIstanbul.txt
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/travel_guides/berlitz1/WhereToLakeDistrict.txt
+### Example 7 (): <br/>
+
 
 - The command uses a parameter for size of a file to search for specific files, in this case between 80 & 100 kilobytes. This is useful to narrow down the
 specific file you're looking for.
 
-### Example 8 (find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -size +250k -and -size -500k): <br/>
-    [cs15lwi23aoh@ieng6-201]:~:253$ find /home/linux/ieng6/cs15lwi23/cs15lwi23aoh -size +250k -and -size -500k
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-data/written_2/travel_guides/berlitz1/WhereToItaly.txt
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-server/.git/objects/pack/pack-cd15105c095bef3eabe7ab46217abba163043e6c.pack
-    /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-server/lib/junit-4.13.2.jar
+### Example 8 (): <br/>
+
 
 - The command uses a parameter for size of a file to search for specific files, in this case between 25 & 500 kilobytes. This is useful if you want to narrow down
 your search for a file in that range, perhaps it's larger than sizes below 250 & smaller than 500 kilobytes.
