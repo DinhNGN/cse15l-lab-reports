@@ -1,5 +1,5 @@
 # Lab Report 3 - Researching Commands (find)
-### - I learn the find command-line options below through linuxize.com & stackscale.com through their find-command linux page.
+### - I learn the find command-line options below through [Link](linuxize.com) & [Link](stackscale.com) through their find-command linux page.
 
 ## Command-line Option 1 ~ (find . -type [file-type])
 ### - The command will find files of the particular type mentioned after "-type" from the current directory.
@@ -93,7 +93,7 @@ in your path in case you want to alter it.
     /home/linux/ieng6/cs15lwi23/cs15lwi23aoh/skill-demo1-server/lib/junit-4.13.2.jar
 
 - The command proceeds to search through the path for files that are of size greater than 100 kilobytes of data. This is useful to find files of specific
-data in order to single out files you might be looking for.
+data in order to single out files you might be looking for. You might want to single them out in the occasion where you don't remember the name of file you're looking for but kind of remember the size.
 
 ## Command-line Option 4 ~ (find -maxdepth [maximum amount of sub-directory to show] /path)
 ### - The command will search the current working directory & indicated amount of sub-directories indicated by the command-line.
@@ -130,5 +130,5 @@ data in order to single out files you might be looking for.
     ./find-results.txt
     ./grep-results.txt
 
-- The command lists a certain maxdepth of 2 sub-directory for the command-line. This is useful for when you don't find your file in the maxdepth of 1 sub-directory, and more accurately go through your files to look for what you want.
+- The command lists a certain maxdepth of 2 sub-directory for the command-line. This is useful for when you don't find your file in the maxdepth of 1 sub-directory, and more accurately go through your files to look for what file you want.
     
