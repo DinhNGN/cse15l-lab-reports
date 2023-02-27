@@ -10,12 +10,16 @@
 ![image](https://user-images.githubusercontent.com/122498399/221489122-2bd0c1c2-cc5a-4702-8416-434dc690800b.png)
   
 ## Third Step (Step 6)~ Compile & Run Test
-- The steps to compile & run was simple. I accessed the javac compiler (javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java) by going 5 up in the search history, while the java command for running (java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples.java) was 6 upo in the search history. (Keys pressed for compile: " <up> <up> <up> <up> <up> <enter> "; Keys pressed for run: " <up> <up> <up> <up> <up> <up> <enter> ")
+- The steps to compile & run was simple. I accessed the javac compiler (javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java) by going 5 up in the search history, while the java command for running (java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples.java) was 6 up in the search history. (Keys pressed for compile: " <up> <up> <up> <up> <up> <enter> "; Keys pressed for run: " <up> <up> <up> <up> <up> <up> <enter> ")
 
 ![image](https://user-images.githubusercontent.com/122498399/221491974-18cacc2c-0251-4c3e-999d-e15576155027.png)
 
 ## Fourth Step (Step 7)~ Fixing The Code
-- To go into the code file to edit the code & fix it, we need to use type in "nano" followed by the file name, in this case, we would type in, "nano ListExamples.java". Once we have access to the code file, we will use the up, down, left & right arrow keys on our keyboard to navigate around. The problem is located at.
+- To go into the code file to edit the code & fix it, we need to use type in "nano" followed by the file name, in this case, we would type in, "nano ListExamples.java". Once we have access to the code file, we will use the up, down, left & right arrow keys on our keyboard to navigate around. The problem is located towards the bottom of the file at the last while statement. The while statement is supposed to be checking for & altering variable "index2" yet it alters the value for "index1" instead. So the solution is altering the name for what value is changed in the while statement from "index1" to "index2". The code segment should end up looking something like this after: <br/>
+      while(index2 < list2.size()) {
+      result.add(list2.get(index2));
+      index2 += 1;
+      }
 
 ## Fifth Step (Step 8)~ Re-run & Re-compile Test
 
