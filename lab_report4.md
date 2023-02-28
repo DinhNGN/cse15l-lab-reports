@@ -11,8 +11,7 @@
   
 ## Third Step (Step 6)~ Compile & Run Test
 - The steps to compile & run was simple. I accessed the javac compiler (`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`) by going 5 up in the search history, while the java command for running (`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`) was 6 up in the search history. (Keys pressed for compile: " `<up>` `<up>` `<up>` `<up>` `<up>` `<enter>` "; Keys pressed for run: " `<up>` `<up>` `<up>` `<up>` `<up>` `<up>` `<enter>` ")
-
-![image](https://user-images.githubusercontent.com/122498399/221491974-18cacc2c-0251-4c3e-999d-e15576155027.png)
+![image](https://user-images.githubusercontent.com/122498399/221745610-547bc3fb-52f1-4bcc-a644-4114f58617db.png)
 
 ## Fourth Step (Step 7)~ Fixing The Code
 - To go into the code file to edit the code & fix it, we need to use type in "nano" followed by the file name, in this case, we would type in, "`nano ListExamples.java`". Once we have access to the code file, we will use the up, down, left & right arrow keys on our keyboard to navigate around. The problem is located towards the bottom of the file at the last while statement. The while statement is supposed to be checking for & altering variable "index2" yet it alters the value for "index1" instead. So the solution is altering the name for what value is changed in the while statement from "`index1`" to "`index2`". The segment changed is highlighted in yellow (shows as yellow letters)
@@ -25,7 +24,7 @@ Re-running & re-compiling in step 8 was practically the same as step 6 where we 
 ![image](https://user-images.githubusercontent.com/122498399/221742199-652b6137-24ac-46c5-968a-c25a7ca257ab.png)
 
 ## Final Step (Step 9)~ Commit & Push Results
-- The final step is to `commit` & `push` your results onto Github. For this step, I went ahead and ran the command-line `git add ListExamples.java` pressed `<Enter>` & follow that with command-line `git commit -m "fix"`.
+- The final step is to `commit` & `push` your results onto Github. For this step, I went ahead and ran the command-line `git add ListExamples.java` pressed `<Enter>` & follow that with command-line `git commit -m "fix"`. The `git add ListExamples.java` command-line adds the file into the list of things you'll be adding onto Github, while the `git commit -m "fix"` command-line will commit the changes onto Github, with the "`-m "fix"`" being there to display the message "fix" when you successfully commit the file onto Github.
 ![image](https://user-images.githubusercontent.com/122498399/221744551-fd5877fc-1b3d-4e7c-9bfa-7b781343e2b3.png)
 
 
