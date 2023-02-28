@@ -25,7 +25,8 @@ Re-running & re-compiling in step 8 was practically the same as step 6 where we 
 ![image](https://user-images.githubusercontent.com/122498399/221742199-652b6137-24ac-46c5-968a-c25a7ca257ab.png)
 
 ## Final Step (Step 9)~ Commit & Push Results
-
+- The final step is to `commit` & `push` your results onto the Cloud. For this step, I went ahead and ran the command-line `git add ListExamples.java` pressed `<Enter>` & follow that with command-line `git commit -m "fix"`.
+![image](https://user-images.githubusercontent.com/122498399/221744551-fd5877fc-1b3d-4e7c-9bfa-7b781343e2b3.png)
 
 
 
