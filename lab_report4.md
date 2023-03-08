@@ -5,7 +5,7 @@
 ![image](https://user-images.githubusercontent.com/122498399/221482594-0df86fe5-9cf0-415e-aa9a-df166e2a39c5.png)
 
 ## Second Step (Step 5)~ Cloning Fork of Repository
-- This step was straightforward,I went ahead and clicked on the linked page in the Week 7 Github, through "`the lab 7 repo`" link where I would click on "`<> code`" for a drop down. Through this drop down, I will click on the icon next to the URL in the drop down, to successfully copy the repository. Following this, I will type in the command, "`git clone https://github.com/ucsd-cse15l-w23/lab7.git`" to clone the repository onto the server.
+- This step was straightforward,I went ahead and clicked on the linked page in the Week 7 Github, through "`the lab 7 repo`" link where I would click on "`<> code`" for a drop down. Through this drop down, I will click on the icon next to the URL in the drop down, to successfully copy the repository. Following this, I will type in the command, `git clone https://github.com/ucsd-cse15l-w23/lab7.git` to clone the repository onto the server.
 
 ![image](https://user-images.githubusercontent.com/122498399/221489122-2bd0c1c2-cc5a-4702-8416-434dc690800b.png)
   
@@ -14,7 +14,7 @@
 ![image](https://user-images.githubusercontent.com/122498399/221745610-547bc3fb-52f1-4bcc-a644-4114f58617db.png)
 
 ## Fourth Step (Step 7)~ Fixing The Code
-- To go into the code file to edit the code & fix it, we need to use type in "nano" followed by the file name, in this case, we would type in, "`nano ListExamples.java`". Once we have access to the code file, we will use the up, down, left & right arrow keys on our keyboard to navigate around. The problem is located towards the bottom of the file at the last while statement. The while statement is supposed to be checking for & altering variable "index2" yet it alters the value for "index1" instead. So the solution is altering the name for what value is changed in the while statement from "`index1`" to "`index2`". The segment changed is highlighted in yellow (shows as yellow letters)
+- To go into the code file to edit the code & fix it, we need to use type in 'nano' followed by the file name, in this case, we would type in, `nano ListExamples.java`. Once we have access to the code file, we will use the up, down, '<left>' & '<right>' arrow keys on our keyboard to navigate around. The problem is located towards the bottom of the file at the last while statement. The while statement is supposed to be checking for & altering variable "index2" yet it alters the value for "index1" instead. So the solution is altering the name for what value is changed in the while statement from "`index1`" to "`index2`". The segment changed is highlighted in yellow (shows as yellow letters)
 ![image](https://user-images.githubusercontent.com/122498399/221692522-aa889cec-862a-42ff-9b2e-aaeb0e860046.png)
 ![image](https://user-images.githubusercontent.com/122498399/221692680-6e1e24b9-5d0c-4650-8f14-003c5f0b65eb.png)
 
@@ -24,7 +24,7 @@ Re-running & re-compiling in step 8 was practically the same as step 6 where we 
 ![image](https://user-images.githubusercontent.com/122498399/221742199-652b6137-24ac-46c5-968a-c25a7ca257ab.png)
 
 ## Final Step (Step 9)~ Commit & Push Results
-- The final step is to `commit` & `push` your results onto Github. For this step, I went ahead and ran the command-line `git add ListExamples.java` pressed `<Enter>` & follow that with command-line `git commit -m "fix"`. The `git add ListExamples.java` command-line adds the file into the list of things you'll be adding onto Github, while the `git commit -m "fix"` command-line will commit the changes onto Github, with the "`-m "fix"`" being there to display the message "fix" when you successfully commit the file onto Github.
+- The final step is to `commit` & `push` your results onto Github. For this step, I went ahead and ran the command-line `git add ListExamples.java` pressed `<Enter>` & follow that with command-line `git commit -m "fix"`. The `git add ListExamples.java` command-line adds the file into the list of things you'll be adding onto Github, while the `git commit -m "fix"` command-line will commit the changes onto Github, with the `-m "fix"` being there to display the message "fix" when you successfully commit the file onto Github.
 ![image](https://user-images.githubusercontent.com/122498399/221744551-fd5877fc-1b3d-4e7c-9bfa-7b781343e2b3.png)
 
 
