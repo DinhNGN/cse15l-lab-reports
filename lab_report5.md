@@ -1,4 +1,4 @@
-# Lab Report 5 - Looking Back at "Researching Commands (find) -" (Lab Report 3)
+# Lab Report 5 - Looking Back at Lab Report 3 - "Researching Commands (find)"
 ### Part 1 - looking it Up
 
 For this particular lab, I had started my research by picking a particular command that I find would be easy to understand how to use,
